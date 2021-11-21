@@ -1,4 +1,4 @@
-# Anotações
+# Notes
 
 ## Version
 ```
@@ -11,19 +11,21 @@ python 3.8.0
 source ./scripts/setup-venv.sh
 ```
 
-ou
+or
 
 ```
 scripts\setup-venv
 ```
 
-## Executar projeto
+## Running project
 
 ```
 source ./scripts/execute.sh
 ```
 
-## Formatar arquivo python
+<b>To run this project is require the NVIDIA Cuda Developer Drive at version 10.1. [Click here](https://www.tensorflow.org/install/source_windows?hl=pt-br#gpu) for more details</b>
+
+## Format python file
 ```
 autopep8 -iv src/main.py
 ```
