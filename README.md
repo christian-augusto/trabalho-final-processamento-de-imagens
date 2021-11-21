@@ -5,10 +5,22 @@
 python 3.8.0
 ```
 
+## Setup venv
+
+```
+source ./scripts/setup-venv.sh
+```
+
+ou
+
+```
+scripts\setup-venv
+```
+
 ## Executar projeto
 
 ```
-source ./shell-scripts/execute.sh
+source ./scripts/execute.sh
 ```
 
 ## Formatar arquivo python
