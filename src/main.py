@@ -21,7 +21,7 @@ def load_labels_csv(
 
 
 def main():
-    INPUT_IMAGE_PATH = "./images/input-9.jpg"
+    INPUT_IMAGE_PATH = "./images/success/input-1.jpg" # change to try another image
     INPUT_SHAPE_TARGET_WIDTH = 1028
     INPUT_SHAPE_TARGET_HEIGHT = 1028
     LABELS_VERSION = "OBJECT (2017 REL.)"
@@ -31,8 +31,7 @@ def main():
     READ_CSV_LABELS_INDEX_COL = "ID"
     OUTPUT_IMAGE_PATH = "./images/output.jpg"
     OUTPUT_IMAGE_TRANSPARENT = True
-    # SCORE_LIMIT = 0.5
-    SCORE_LIMIT = 0.1
+    SCORE_LIMIT = 0.5 # change to try another precision
 
     img = read_input_image(INPUT_IMAGE_PATH)
 
